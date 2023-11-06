@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaInstagram } from 'react-icons/fa'
-import logo1 from '../assets/logo1.png'
+// import logo1 from '../assets/logo1.png'
 // import {HiOutlineMail} from 'react-icons/hi'
 // import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
         <div>
-            <img src={logo1} alt="logo image" style={{width: '50px'}} />
+            <img src={"https://storage.googleapis.com/myportofolio/assets/logo1.png"} alt="logo image" style={{width: '50px'}} />
         </div>
 
         {/* Menu */}
